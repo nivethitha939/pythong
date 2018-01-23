@@ -1,4 +1,4 @@
-a=int(input("Enter a number:"))
+a=input("Enter a number:")
 b=0
 while(a>0):
     c=a%10
