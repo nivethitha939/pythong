@@ -1,0 +1,5 @@
+a=int(input("\nEnter the values"))
+b=int(input("\n Enter the value to be printed"))
+c=list(str(a))
+c.sort()
+print("\n",c[b-1])
