@@ -1,4 +1,4 @@
-a=input("\nEnter the even string to swap even and odd values:")
+a=input()
 b=list(a)
 c=len(b)
 i=0
