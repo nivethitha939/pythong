@@ -1,1 +1,2 @@
-print(len(input()))
+a=len(input())
+print(a)
