@@ -1,5 +1,5 @@
-a=int(input())
-c=a
+l=int(input())
+c=l
 d=c
 i=d
 j=i
@@ -7,7 +7,7 @@ b=int(input())
 f=[]
 while a>0:
     f.append(input())
-    a=a-1
+    l=l-1
 f.insert(d,0)
 while b>0:
     i=j
