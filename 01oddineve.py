@@ -1,7 +1,6 @@
-a,b,c=int(input()),input().split(),[]
+a,b=int(input()),input().split()
 for i in range(a):
     if i%2==0 and int(b[i])%2 !=0:
-        c.append(b[i])
+        print(b[i],end=" ")
     elif i%2 != 0 and int(b[i])%2 == 0:
-        c.append(b[i])
-print("".join(c),end=" ")
+        print(b[i],end=" ")
