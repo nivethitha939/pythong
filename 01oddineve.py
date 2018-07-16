@@ -4,4 +4,4 @@ for i in range(a):
         c.append(b[i])
     elif i%2 != 0 and int(b[i])%2 == 0:
         c.append(b[i])
-print(" ".join(c))
+print("".join(c),end=" ")
