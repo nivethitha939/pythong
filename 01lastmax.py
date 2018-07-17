@@ -1,2 +1,3 @@
 a,c=input().split(),sorted(input().split())
-print(c[int(a[0])-(int(a[1])-1)-1])
+c=("".join(list(reversed(" ".join(c))))).split()
+print(c[int(a[1])-1])
