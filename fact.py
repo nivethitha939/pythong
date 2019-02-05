@@ -1,8 +1,8 @@
-a=int(input("enter the number"))
-s=1
-i=1
-while a>0:
-    s=s*i
-    i=i+1
-    a=a-1
-print("\n",s)
+i=int(input(""))
+y=1
+x=1
+while i>0:
+    y=y*x
+    x=x+1
+    i=i-1
+print("\n",y)
